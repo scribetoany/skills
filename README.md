@@ -1,9 +1,10 @@
-# ScribeToAny Skills
+# ScribeToAny Skills: transcription and subtitle skills for AI agents
 
-Agent Skills for subtitles and transcripts, from the team behind
+Agent Skills that let your AI agent turn audio and video into text or SRT/VTT
+subtitles, and check subtitle reading speed, from the team behind
 [ScribeToAny](https://scribetoany.com/?utm_source=github&utm_medium=readme&utm_campaign=scribetoany-skills).
 They work in Claude Code, Claude.ai, Codex, Cursor, Gemini CLI, OpenCode and
-any other agent that reads `SKILL.md` folders.
+other agents that read `SKILL.md` folders, such as OpenClaw and Hermes.
 
 | Skill | What it does |
 |---|---|
@@ -61,6 +62,7 @@ to 24% before a single word was cut. The method and sources are in
 ```
 /plugin marketplace add scribetoany/skills
 /plugin install subtitle-qc@scribetoany-skills
+/plugin install scribetoany@scribetoany-skills
 ```
 
 **Cursor (plugin)**
