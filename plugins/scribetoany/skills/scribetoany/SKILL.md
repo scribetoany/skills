@@ -16,7 +16,7 @@ go to stdout, progress to stderr. Every command takes `--json`.
 scribetoany --version
 ```
 
-If it isn't installed, use `npx -y scribetoany` in place of `scribetoany`
+If it isn't installed, use `npx -y scribetoany@0.1.6` in place of `scribetoany`
 everywhere below (Node.js 20+). Ask the user before running
 `npm i -g scribetoany`.
 
