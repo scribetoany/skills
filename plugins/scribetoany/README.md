@@ -1,6 +1,7 @@
 # scribetoany
 
-Lets a coding agent (Claude Code, Codex, Gemini CLI, Cursor…) transcribe
+A transcription skill for AI agents. It lets a coding agent (Claude Code,
+Codex, Gemini CLI, Cursor, OpenClaw…) transcribe
 audio and video files on your computer with
 [ScribeToAny](https://scribetoany.com/?utm_source=github&utm_medium=readme&utm_campaign=scribetoany-cli):
 text with timestamps, SRT or VTT subtitles, speaker labels.
@@ -12,6 +13,16 @@ npm i -g scribetoany
 scribetoany auth login            # opens the browser once
 scribetoany transcribe meeting.m4a --format srt
 ```
+
+Add the skill in Claude Code:
+
+```
+/plugin marketplace add scribetoany/skills
+/plugin install scribetoany@scribetoany-skills
+```
+
+or in any agent with the [skills CLI](https://github.com/vercel-labs/skills):
+`npx skills add scribetoany/skills --skill scribetoany`.
 
 Then ask your agent:
 
