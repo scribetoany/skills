@@ -1,6 +1,6 @@
 {
   "name": "scribetoany",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Transcribe local audio and video files (or public links) into text, SRT or VTT subtitles with the ScribeToAny CLI.",
   "author": {
     "name": "ScribeToAny",
@@ -8,5 +8,19 @@
   },
   "homepage": "https://scribetoany.com/developers",
   "license": "MIT",
-  "keywords": ["transcription", "speech-to-text", "subtitles", "srt", "vtt", "whisper", "speaker-labels"]
+  "keywords": [
+    "transcription",
+    "speech-to-text",
+    "subtitles",
+    "srt",
+    "vtt",
+    "whisper",
+    "speaker-labels"
+  ],
+  "icon": "./assets/logo.svg",
+  "documentationUrl": "https://scribetoany.com/developers#cli",
+  "supportUrl": "https://scribetoany.com/contact",
+  "privacyPolicyUrl": "https://scribetoany.com/privacy",
+  "termsOfServiceUrl": "https://scribetoany.com/terms",
+  "displayName": "ScribeToAny"
 }
